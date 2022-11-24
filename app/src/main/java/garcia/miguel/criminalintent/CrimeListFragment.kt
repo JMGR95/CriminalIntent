@@ -47,7 +47,7 @@ class CrimeListFragment : Fragment() {
                     binding.crimeRecyclerView.adapter =
                         CrimeListAdapter(crimes){ crimeId ->
                             findNavController().navigate(
-                                CrimeListFragmentDirections.showCrimeDetail((crimeId)
+                                CrimeListFragmentDirections.showCrimeDetail(crimeId)
                             )
                         }
                 }

@@ -2,7 +2,7 @@ package garcia.miguel.criminalintent
 
 import android.content.Context
 import androidx.room.Room
-import database.CrimeDatabase
+import garcia.miguel.criminalintent.database.CrimeDatabase
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.flow.Flow

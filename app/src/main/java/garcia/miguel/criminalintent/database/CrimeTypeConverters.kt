@@ -1,4 +1,4 @@
-package database
+package garcia.miguel.criminalintent.database
 
 import androidx.room.TypeConverter
 import java.util.Date

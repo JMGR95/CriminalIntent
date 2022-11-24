@@ -1,4 +1,4 @@
-package database
+package garcia.miguel.criminalintent.database
 
 import androidx.room.Dao
 import androidx.room.Query
